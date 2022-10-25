@@ -1,5 +1,5 @@
-// **MILESTONE 3:**
-// Stampare delle card formattate contenete immagini e testo (La grafica fornita è solo un esempio ma sentitevi liberi di “graficare” come preferite)
+// **MILESTONE 2:**
+// Stampare le stesse informazioni su DOM sotto forma di stringhe
 
 const row = document.querySelector('.row')
 
