@@ -2,6 +2,8 @@
 // Stampare delle card formattate contenete immagini e testo (La grafica fornita è solo un esempio ma sentitevi liberi di “graficare” come preferite)
 
 const row = document.querySelector('.row')
+const rolePerson = document.getElementById('role')
+const name = document.getElementById('name')
 
 const team = [
   {
@@ -39,8 +41,14 @@ const team = [
 
 for (let member of team) {
   let card = `
-  <div class="col-4">
-  <img src="${member.img}" alt="">
+  <div class="col-4 d-flex justify-content-center text-center">
+    <div class="card" style="width: 18rem;">
+      <img src="${member.img}" alt="">
+      <div class="card-body">
+        <h4 id="name">${member.name}</h4>
+        <h5 id="role">${member.role}</h5>
+      </div>
+    </div>
   </div>
   `
   row.innerHTML += card;
