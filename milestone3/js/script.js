@@ -41,7 +41,7 @@ const team = [
 
 for (let member of team) {
   let card = `
-  <div class="col-4 d-flex justify-content-center text-center">
+  <div class="col-4 d-flex justify-content-center text-center p-4">
     <div class="card" style="width: 18rem;">
       <img src="${member.img}" alt="">
       <div class="card-body">
