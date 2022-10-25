@@ -27,13 +27,16 @@ const team = [
   {
     name: 'Scott Estrada',
     role: 'Developer',
+    img: "img/scott-estrada-developer.jpg"
 
   },
   {
     name: 'Barbara Ramos',
     role: 'Graphic Designer',
-    
+    img: "img/barbara-ramos-graphic-designer.jpg"
   },
 ];
 
-console.log(team);
+for (let member of team) {
+  console.log(member);
+}
